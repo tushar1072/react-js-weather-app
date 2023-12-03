@@ -10,7 +10,7 @@ const App = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://api.weatherapi.com/v1/current.json?key=638f054f871d4c61a0085451231911&q=${location}&aqi=no`
+          `https://api.weatherapi.com/v1/current.json?key=638f054f871d4c61a0085451231911&q=${location}&aqi=no`
         );
 
         if (!response.ok) {
